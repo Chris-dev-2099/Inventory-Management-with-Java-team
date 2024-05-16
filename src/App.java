@@ -85,6 +85,7 @@ public class App {
                     System.out.println("1. Ver inventario de productos");
                     System.out.println("2. Gestionar pedidos");
                     System.out.println("3. Confirmar envios");
+                    System.out.println("4. Salir");
 
                     // Puede ver el inventario de productos.
                     // Puede gestionar pedidos y confirmar envíos.

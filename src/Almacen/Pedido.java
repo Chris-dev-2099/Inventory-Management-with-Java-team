@@ -41,6 +41,7 @@ class Almacenero {
         System.out.println("1. Ver inventario de productos");
         System.out.println("2. Gestionar pedidos");
         System.out.println("3. Confirmar envíos");
+        System.out.println("4. Salir");
 
         try {
             int opcion = scanner.nextInt();
