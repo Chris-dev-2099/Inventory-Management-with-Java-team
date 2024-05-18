@@ -55,7 +55,7 @@ public class Usuario {
         if (usuarios.authenticate("usuario1", "contraseña1")) {
             System.out.println("Acceso permitido para el administrador.");
         } else {
-            System.out.println("No se ha podido autenticar al usuario o la contraseña es incorrecta.");
+            System.out.println("No se ha podido autenticar al usuario o la contraseña e s incorrecta.");
         }
     }
 }
