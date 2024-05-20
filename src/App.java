@@ -91,30 +91,30 @@ public class App {
                     // Puede gestionar pedidos y confirmar envíos.
 
 
-                        int opcion = 0;
+                    int opcion = 0;
 
-do {
-    System.out.print("Ingrese su opción: ");
+                    do {
+                        System.out.print("Ingrese su opción: ");
 
-    switch (opcion) {
-        case 1:
-            System.out.println("Ver inventario de productos...");
-            break;
-        case 2:
-            System.out.println("Gestionar pedidos...");
-            break;
-        case 3:
-            System.out.println("Confirmar envíos...");
-            break;
-        case 4:
-            System.out.println("Saliendo del menú de Almacenero...");
-            break;
-        default:
-            System.out.println("Opción no válida.");
-            break;
-        }
-    } while (opcion != 4);
-}
+                        switch (opcion) {
+                            case 1:
+                                System.out.println("Ver inventario de productos...");
+                                break;
+                            case 2:
+                                System.out.println("Gestionar pedidos...");
+                                break;
+                            case 3:
+                                System.out.println("Confirmar envíos...");
+                                break;
+                            case 4:
+                                System.out.println("Saliendo del menú de Almacenero...");
+                                break;
+                            default:
+                                System.out.println("Opción no válida.");
+                                break;
+                            }
+                        } while (opcion != 4);
+                    }
 
                 
                 else {
