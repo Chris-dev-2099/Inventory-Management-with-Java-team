@@ -10,7 +10,7 @@ public class App {
         System.out.println("Con que rol desea ingresar al Almacen");
         System.out.println("1. Administrador");
         System.out.println("2. Almacenero");
-        System.out.println("3. Contador");
+        System.out.println("3. Contador"); 
 
         Scanner rolScan = new Scanner(System.in);
         Integer rol = rolScan.nextInt();
