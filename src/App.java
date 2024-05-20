@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 // Hay errores por aun faltan crear las funciones para cada opcion
 
-
 public class App {
     public static void main(String[] args) throws Exception {
 
@@ -61,7 +60,7 @@ public class App {
 
                     do {
                         // falta crear las opciones del submenu con dowhile
-                    } while (condition);
+                    } while (condition); 
 
                 }else{
                     System.out.println("Su usuario o contraseña es incorrecto, intentelo de nuevo por favor");
@@ -86,15 +85,39 @@ public class App {
                     System.out.println("1. Ver inventario de productos");
                     System.out.println("2. Gestionar pedidos");
                     System.out.println("3. Confirmar envios");
+                    System.out.println("4. Salir");
 
                     // Puede ver el inventario de productos.
                     // Puede gestionar pedidos y confirmar envíos.
 
-                    do {
-                        // falta crear las opciones del submenu con dowhile
-                    } while (condition);
-                    
-                }else{
+
+                        int opcion = 0;
+
+do {
+    System.out.print("Ingrese su opción: ");
+
+    switch (opcion) {
+        case 1:
+            System.out.println("Ver inventario de productos...");
+            break;
+        case 2:
+            System.out.println("Gestionar pedidos...");
+            break;
+        case 3:
+            System.out.println("Confirmar envíos...");
+            break;
+        case 4:
+            System.out.println("Saliendo del menú de Almacenero...");
+            break;
+        default:
+            System.out.println("Opción no válida.");
+            break;
+        }
+    } while (opcion != 4);
+}
+
+                
+                else {
                     System.out.println("Su usuario o contraseña es incorrecto, intentelo de nuevo por favor");
                 }
 
@@ -121,6 +144,8 @@ public class App {
 
                     // Puede ver el inventario de productos.
                     // Puede generar informes de inventario.
+
+                    int opcion = 0;
 
                     do {
                         // falta crear las opciones del submenu con dowhile
